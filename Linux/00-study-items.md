@@ -1,6 +1,9 @@
 ## Study Linux
 > Source: [생활코딩(Youtube)](https://www.youtube.com/playlist?list=PLuHgQVnccGMBT57a9dvEtd6OuWpugF9SH)
 
+## Linux Env
+> Environment: [Amazon ES2](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
+
 ## Category
 1. install
 1. file & directory
