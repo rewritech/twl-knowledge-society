@@ -6,13 +6,13 @@
 
 ## Curriculum
 > [생활코딩 인프런](https://www.inflearn.com/course/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-%EB%A6%AC%EB%88%85%EC%8A%A4-%EA%B0%95%EC%A2%8C#curriculum)
-1. install
-1. file & directory
-1. help & man
-1. searching
-1. frequency of command
-1. sudo
-1. file edit(nano)
+1. install -> Done
+1. file & directory -> Done
+1. help & man -> Done
+1. searching -> Done
+1. frequency of command -> Done
+1. sudo -> Done
+1. file edit(nano) -> Done
 1. package manager
 1. file download: wget
 1. file download: git
