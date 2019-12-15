@@ -13,7 +13,7 @@
 1. frequency of command -> Done
 1. sudo -> Done
 1. file edit(nano) -> Done
-1. package manager
+1. package manager -> Done
 1. file download: wget
 1. file download: git
 1. why using CLI? - sequence execution(semicolon)
