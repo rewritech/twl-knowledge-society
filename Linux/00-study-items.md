@@ -14,8 +14,8 @@
 1. sudo -> Done
 1. file edit(nano) -> Done
 1. package manager -> Done
-1. file download: wget
-1. file download: git
+1. file download: wget -> Done
+1. file download: git -> Done
 1. why using CLI? - sequence execution(semicolon)
 1. why using CLI? (pipeline)
 1. IO redirection1: output
