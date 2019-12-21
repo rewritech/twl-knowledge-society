@@ -16,7 +16,8 @@
 1. package manager -> Done
 1. file download: wget -> Done
 1. file download: git -> Done
-1. why using CLI? - sequence execution(semicolon)
+1. why using CLI? - GUI vs CLI -> Done
+1. why using CLI? - sequence execution(semicolon) -> Done
 1. why using CLI? (pipeline)
 1. IO redirection1: output
 1. IO redirection2: inout
