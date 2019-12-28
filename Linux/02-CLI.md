@@ -22,3 +22,53 @@
     [ec2-user@ip-172-31-43-73 tes]$ mkdir why;cd why; pwd
     /home/ec2-user/tes/why
     ```
+
+1. ### pipeline
+    > 하나의 명령의 실행 결과를 다른 곳의 입력으로 줌
+    * grep: 필요한 정보가 포함된 행을 찾음
+    * pipe: | 정보 연결
+    ```bash
+    # grep: 정보 검색
+    # 파일 내 정보
+    [ec2-user@ip-172-31-43-73 ~]$ nano linux.txtKV
+    [ec2-user@ip-172-31-43-73 ~]$ cat linux.txt
+    1abcdefg
+    a2bcdefg
+    abc3defg
+    abcd4efg
+    abcde5fg
+    abcdef6g
+    abcdefg7
+    [ec2-user@ip-172-31-43-73 ~]$ grep 3 linux.txt
+    abc3defg
+
+    # pipe: | 명령어 정보 내에서 검색
+    [ec2-user@ip-172-31-43-73 ~]$ ls --help | grep sort
+    Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+    -c                         with -lt: sort by, and show, ctime (time of last
+                                with -l: show ctime and sort by name;
+                                otherwise: sort by ctime, newest first
+    -f                         do not sort, enable -aU, disable -ls --color
+                                can be augmented with a --sort option, but any
+                                use of --sort=none (-U) disables grouping
+    -r, --reverse              reverse order while sorting
+    -S                         sort by file size
+        --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+                                as sort key if --sort=time
+    -t                         sort by modification time, newest first
+    -u                         with -lt: sort by, and show, access time;
+                                with -l: show access time and sort by name;
+                                otherwise: sort by access time
+    -U                         do not sort; list entries in directory order
+    -v                         natural sort of (version) numbers within text
+    -X                         sort alphabetically by entry extension
+
+    # 복수 pipe: and 검색
+    [ec2-user@ip-172-31-43-73 ~]$ ls --help | grep sort | grep file
+    -S                         sort by file size
+
+    # ps aux: 현재 실행중인 프로그램에서 pipe grep 이용 검색
+    [ec2-user@ip-172-31-43-73 ~]$ ps aux | grep amazon
+    root      2264  0.0  1.3 291844 13404 ?        Ssl  Nov30   0:15 /usr/bin/amazon-ssm-agent
+    ec2-user  9188  0.0  0.2 110520  2112 pts/0    S+   06:46   0:00 grep --color=auto amazon
+    ```
