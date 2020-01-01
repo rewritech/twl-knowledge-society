@@ -19,7 +19,7 @@
 1. why using CLI? - GUI vs CLI -> Done
 1. why using CLI? - sequence execution(semicolon) -> Done
 1. why using CLI? (pipeline) -> Done
-1. IO redirection1: output
+1. IO redirection1: output -> Done
 1. IO redirection2: inout
 1. IO redirection3: append
 1. shell1: intro
